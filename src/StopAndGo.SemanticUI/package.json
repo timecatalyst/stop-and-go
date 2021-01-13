@@ -1,0 +1,11 @@
+{
+  "name": "stop-and-go-semantic-ui",
+  "private": true,
+  "scripts": {
+    "build": "gulp build",
+    "clean": "gulp clean"
+  },
+  "devDependencies": {
+    "semantic-ui": "2.3.3"
+  }
+}

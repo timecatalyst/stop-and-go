@@ -1,0 +1,3 @@
+.join-leave-game {
+  @include flexbox(row, space-between, center);
+}

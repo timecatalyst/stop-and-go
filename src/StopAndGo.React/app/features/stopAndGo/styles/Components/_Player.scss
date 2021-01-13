@@ -1,0 +1,28 @@
+.player {
+  @include flexbox(row, flex-start, center);
+  height: 80px;
+  margin: 30px;
+  border-right: 5px dashed #000;
+
+  &__name {
+    @include flexbox(row, center, center);
+    flex: 0 0 100px;
+    font-weight: bold;
+  }
+
+  &__progress {
+    height: 50px;
+    transition: width 0.5s ease;
+    border-radius: 10px;
+  }
+
+  &__knight {
+    width: 0;
+
+    > img {
+      position: relative;
+      left: -95px;
+      width: 165px;
+    }
+  }
+}

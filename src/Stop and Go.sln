@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopAndGo.Api", "StopAndGo.Api\StopAndGo.Api.csproj", "{FB35F273-2584-4496-B90F-DB8B6B9D92EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB35F273-2584-4496-B90F-DB8B6B9D92EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB35F273-2584-4496-B90F-DB8B6B9D92EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB35F273-2584-4496-B90F-DB8B6B9D92EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB35F273-2584-4496-B90F-DB8B6B9D92EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8BC712B-A75E-4364-85B4-3D6B22E5AD34}
+	EndGlobalSection
+EndGlobal

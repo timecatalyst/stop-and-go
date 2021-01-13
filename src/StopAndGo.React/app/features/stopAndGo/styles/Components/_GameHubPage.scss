@@ -1,0 +1,16 @@
+.game-hub-page {
+  margin: 30px;
+
+  &__header {
+    @include flexbox(row, space-between, center);
+
+    > h2 {
+      margin: 0;
+    }
+
+    > div:first-child,
+    > div:last-child {
+      flex: 0 0 320px;
+    }
+  }
+}

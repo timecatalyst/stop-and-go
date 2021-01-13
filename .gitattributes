@@ -1,0 +1,57 @@
+* text=auto
+
+*.asax text
+*.ascx text
+*.asp text
+*.aspx text
+*.bat text
+*.cmd text
+*.coffee text
+*.config text
+*.cs text diff=csharp
+*.cshtml text
+*.csproj text merge=union
+*.css text
+*.fsproj merge=union
+*.html text diff=html
+*.less text
+*.js text
+*.json text
+*.proj text
+*.ps1 text
+*.sln text merge=union
+*.sql text
+*.sqlproj text merge=union
+*.rake text
+*.refactorlog text merge=union
+*.svc text
+*.targets text
+*.vb text
+*.vbhtml text
+*.vbproj merge=union
+*.xaml text
+*.xml text
+*.xsd text
+Gemfile text
+Gemfile.lock text
+Rakefile text diff=ruby
+
+*.cab binary
+*.cer binary
+*.dbmdl binary
+*.dll binary
+*.eot binary
+*.exe binary
+*.gif binary
+*.jpg binary
+*.otf binary
+*.p7b binary
+*.pdb binary
+*.png binary
+*.pfx binary
+*.rpt binary
+*.sdf binary
+*.svg binary
+*.ttf binary
+*.woff binary
+*.zip binary

@@ -1,0 +1,9 @@
+$body-background-color: #fff;
+
+@import '~toastr/toastr';
+@import '_mixins';
+@import '../features/stopAndGo/styles/_index';
+
+div#react-app-container {
+  height: 100vh;
+}

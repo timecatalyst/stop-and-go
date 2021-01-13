@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Company>Truefit, Inc.</Company>
+    <Product>Stop and Go API</Product>
+    <Description />
+    <Copyright>Copyright © Truefit, Inc. 2018</Copyright>
+    <Authors>Truefit, Inc.</Authors>
+    <UserSecretsId>stop-and-go-api</UserSecretsId>
+    <StartupObject>StopAndGo.Api.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Hubs\Shared" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.0" />
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Coravel" Version="2.1.0" />
+    <PackageReference Include="Handlebars.Net" Version="1.9.5" />
+    <PackageReference Include="JetBrains.Annotations" Version="2018.2.1" />
+    <PackageReference Include="MediatR" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Serilog.AspNetCore" Version="2.1.2-dev-00028" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\react\0ab54153eeeca0ce03978cc463b257f7.woff2" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\13db00b7a34fee4d819ab7f9838cc428.eot" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\15.7d9884f2377f8ed1a124.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\2c92b7b35b1ef7022f1cbdff23ca92da.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\701ae6abd4719e9c2ada3535a497b341.eot" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\82f60bd0b94a1ed68b1e6e309ce2e8c3.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\8e3c7f5520f5ae906c6cf6d7f3ddcd19.eot" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\962a1bf31c081691065fe333d9fa8105.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\9c74e172f87984c48ddf5c8108cabe67.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\a046592bac8f2fd96e994733faf3858c.woff" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\a1a749e89f578a49306ec2b055c073da.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\ad97afd3337e8cda302d10ff5a4026b8.ttf" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\ArtistsList.66f08f880a4be8d02904.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\b87b9ba532ace76ae9f6edfe9f72ded2.ttf" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\bf0f2100f6975520a886309898a92a31.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\c5ebe0b32dc1b5cc449a76c4204d13bb.ttf" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\cd6c777f1945164224dee082abaea03a.woff2" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\ContentPromotionsList.7529ec99e93396dc5f6a.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\de7482e44eb595f8fa4335d031bf1bdf.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\e8c322de9658cbeb8a774b6624167c2c.woff2" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\EditCueStack.c3ea680173801561fc22.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\ef60a4f6c25ef7f39f2d25a748dbecfe.woff" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\EventNotificationsList.b4adcfdedbd0ab38b9c4.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\EventsList.63bbd473f16691fe8c52.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\f4ebc3c5b4b2449ad4a41537edb47826.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\faff92145777a3cbaf8e7367b4807987.woff" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\index.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\main.7e54dc796261c610fe7a.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\main.7e54dc796261c610fe7a.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\ProductionEvent.6e3dc6d30c11defbff76.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\semanticui.84444a838b8a23a1b455.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\semanticui.84444a838b8a23a1b455.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\SetsList.8c0d3bb16e384baeeb69.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\SongsList.bd1e3b57b653a7e8dc0d.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\SponsorLocationsList.f1a168c63cb8174f55d9.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\UsersList.1c677d4a4231d826f5a4.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\vendors~ContentPromotionsList~EditCueStack~EventsList~ProductionEvent.72240c86c3ec2f2054d9.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\vendors~ContentPromotionsList~EventsList.10ccf4db22cb8977b446.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\vendors~EditCueStack.c2d12c4232f5da73fcba.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\vendors~main.7d9884f2377f8ed1a124.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\vendors~SetsList.70d0c459b252f4095dcc.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\vendors~VenuesList.15017a0e25445b40c3f1.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\react\VenuesList.5e38e89c88791f72a12d.js" />
+  </ItemGroup>
+</Project>

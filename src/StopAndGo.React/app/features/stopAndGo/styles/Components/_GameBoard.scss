@@ -1,0 +1,5 @@
+.game-board {
+  @include flexbox(column);
+  border: 1px solid #000;
+  border-radius: 10px;
+}
